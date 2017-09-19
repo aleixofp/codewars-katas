@@ -1,4 +1,4 @@
-<h2>7 kyu</h2>
+<h2>Kata: Interweaving Strings and Removing digits (7 kyu)</h2>
 
 Your friend Rick is trying to send you a message, but he is concerned that it would 
 get intercepted by his partner. He came up with a solution:
