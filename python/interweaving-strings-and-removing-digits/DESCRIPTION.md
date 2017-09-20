@@ -13,8 +13,9 @@ and the remaining ones on another. He then dispatched the two messages separatel
 Write a function interweave(s1, s2) that reverses this operation to decode his message!
 
 
-Example 1: interweave("hlo", "el") -> "hello"
-Example 2: interweave("h3lo", "el4") -> "hello"
+<h3>Example 1:</h3> interweave("hlo", "el") -> "hello"
+
+<h3>Example 2:</h3> interweave("h3lo", "el4") -> "hello"
 
 
 Rick's a bit peculiar about his formats. He would feel ashamed if he found out his message led to extra white spaces 
