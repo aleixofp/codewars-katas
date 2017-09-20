@@ -2,8 +2,9 @@
 
 # Describe the test you're gonna do
 def describe(message):
-    print(message)
+    print("----- " + message + " -----")
 
 # Assert the values
-def assert_equals(input, expected):
-    print("%s and %s test:\n%s" % (str(input), str(expected), "Correct" if input == expected else "Incorrect"))
+def assert_equals(inp, expected, msg=""):
+    if msg: print(msg)
+    print("Correct" if inp == expected else "Incorrect")
