@@ -1,6 +1,4 @@
-def test(expected, actual):
-  print("Expected: " + expected + ", Actual: " + actual)
-  return expected == actual
+import test
 
 def interweave(s1, s2):    
     
@@ -13,6 +11,11 @@ def interweave(s1, s2):
     
 # Tests
 
-print(test("hello", interweave("hlo", "el")))
-print(test("hello", interweave("h3lo", "el4")))
-print(test("hello world", interweave("hlowrd", "el ol")))
+test.describe("Tests")
+
+msg1 = "hello"
+msg2 = "hello world"
+
+test.assert_equals(interweave("hlo", "el"), msg1, "['hlo', 'el'] should equal 'hello': ")
+test.assert_equals(interweave("hlowrd", "el ol"), msg2, "['hlowrd', 'el ol'] should equal 'hello world': ")
+
