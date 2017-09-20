@@ -1,6 +1,3 @@
-# Problem: https://www.codewars.com/kata/588a7d45019c42be61000009      
-# Title: Interweaving strings and removing digits     
-# Level: 7 kyu        
 # Python 3.4        
 # Check DESCRIPTION.md for the problem's full description.
 
