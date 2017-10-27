@@ -10,5 +10,5 @@ def it(message):
 
 # Assert the values
 def assert_equals(actual, expected, message=""):
-    if message = print(message)
+    if message: print(message)
     print(("%s should equal %s" %(str(actual), str(expected))) if actual != expected else "Test passed")
